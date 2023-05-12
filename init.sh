@@ -14,4 +14,10 @@ sudo apt-get install git-lfs
 cat dotfiles/vimrc >> ~/.vimrc
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+wget https://repo.anaconda.com/miniconda/Miniconda3-py38_23.3.1-0-Linux-x86_64.sh
+bash Miniconda*.sh  -b -p $HOME/miniconda3
+source $HOME/miniconda3/bin/activate
+conda init 
+conda init
+
 
