@@ -18,6 +18,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-py38_23.3.1-0-Linux-x86_64.s
 bash Miniconda*.sh  -b -p $HOME/miniconda3
 source $HOME/miniconda3/bin/activate
 conda init 
-conda init
+conda init zsh
+echo "zsh" >> ~/.bashrc
 
 
