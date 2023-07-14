@@ -1,6 +1,7 @@
 apt update
-apt install curl wget
+apt install curl wget -y
 sudo apt-get install zsh
+echo " you should press control_d once you get into the ohmyzsh prompt to continue the setup of this cool and magical script"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
