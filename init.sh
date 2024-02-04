@@ -21,5 +21,8 @@ source $HOME/miniconda3/bin/activate
 conda init 
 conda init zsh
 echo "zsh" >> ~/.bashrc
+conda update -n base conda
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
 
 
